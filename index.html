@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONTS -->
+    <link rel="stylesheet" href="vendors/fonts/Lato/Lato-Light.ttf">
+    <link rel="stylesheet" href="vendors/fonts/Sanchez/Sanchez-Regular.ttf">
+    <!-- ICONS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+        integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!-- STYLES -->
+    <link rel="stylesheet" href="assets/vendors/bootstrap-5.1.3/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>website-commun</title>
+
+    <style>
+        .bg-lightgrey {
+            background-color: lightgrey;
+        }
+
+      
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+        * {
+            font-family: 'Nunito', sans-serif;
+            text-decoration: none;
+            list-style: none;
+        }
+
+        .w-50- {
+            width: 50%;
+            max-width: 50%;
+            min-width: 50%;
+        }
+
+        .bi-play-fill {
+            width: 32px;
+            height: 32px;
+            padding: 5px;
+            align-self: center;
+        }
+
+        .bi-circle-fill {
+            position: absolute;
+            font-size: 18rem;
+            z-index: 1;
+
+        }
+
+        .person-img img {
+            position: relative;
+            z-index: 2;
+        }
+
+        .tooltip-hero {
+            position: absolute;
+            z-index: 4;
+            box-shadow: 0px 0px 20px 1px rgba(255, 193, 71, 0.62);
+            left: 0;
+            bottom: 18%;
+        }
+
+        .bi-circle-fill::before {
+            content: "\f287";
+            box-shadow: 0 0 20px 0px;
+            border-radius: 50%;
+        }
+
+        .bi-arrow-right {
+            padding-top: 3px;
+            padding-left: 10px;
+        }
+
+
+        .inner-shadow- {
+            -webkit-box-shadow: inset 0px -6px 30px -12px #000000;
+            box-shadow: inset 0px -6px 30px -12px #000000;
+        }
+
+        .contact-bg {
+            border-radius: 20px;
+        }
+
+        .contact-img {
+            bottom: 0;
+            right: 20px;
+            width: 40% !important;
+            height: auto;
+        }
+
+        .titre-color {
+            color: #2c1a4d !important;
+        }
+
+        .text-warning {
+            color: #fca61f;
+
+        }
+
+        .bg-warning {
+            background-color: #fca61f;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <!---Navbar--->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#mohammad">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#leo">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#axel">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#lucas">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#math">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#nakad">Link</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!---Section de Mohammad------------->
+    <section class="pt-5 pb-5" id="mohammad">
+        <div class="container-lg py-5">
+            <div class="d-flex flex-column gap-4">
+                <div class="text-center">
+                    <h1 class="fw-bolder titre-color">We Care About Our <br> Customers Experience Too</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam id veniam. <br>Lorem ipsum
+                        dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div
+                    class="col-12 d-flex flex-column align-items-center flex-lg-row justify-content-center ms-auto me-auto gap-3 gap-lg-2">
+                    <div class="col-8 col-lg-3 bg-light rounded p-3 d-flex flex-column gap-3">
+                        <div class="col-12 d-flex align-items-center ">
+                            <div class="col-3 ">
+
+                                <img class="rounded-circle img-fluid" src="assets/Person.png">
+                            </div>
+                            <div class="col-6 d-flex align-items-start flex-column">
+                                <p class="mb-0 fw-bold">John William</p>
+                                <small class="opacity-75">25 OCT 2021</small>
+                            </div>
+                            <svg class="col-1 text-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z" />
+                                </svg>
+                        </div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, obcaecati commodi quos
+                            quibusdam impedit illum?</p>
+                    </div>
+
+
+                    <div
+                        class="col-8 col-lg-3  bg-warning rounded p-3 d-flex flex-column gap-3 bg-opacity-75 shadow p-3 mb-lg-5">
+                        <div class="col-12 d-flex align-items-center ">
+                            <div class="col-3 ">
+
+                                <img class="rounded-circle img-fluid" src="assets/Person.png">
+                            </div>
+                            <div class="col-6 d-flex align-items-start flex-column">
+                                <p class="mb-0 fw-bold titre-color">John William</p>
+                                <small class="opacity-75 titre-color">21 OCT 2021</small>
+                            </div>
+                            <svg class="col-1 text-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z" />
+                                </svg>
+                        </div>
+                        <p class="titre-color">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima,
+                            obcaecati commodi quos quibusdam impedit illum?</p>
+                    </div>
+
+
+                    <div class="col-8 col-lg-3  bg-light rounded p-3 d-flex flex-column gap-3">
+                        <div class="col-12 d-flex align-items-center ">
+                            <div class="col-3 ">
+                                <img class="rounded-circle img-fluid" src="assets/Person.png">
+                            </div>
+                            <div class="col-6 d-flex align-items-start flex-column">
+                                <p class="mb-0 fw-bold">John William</p>
+                                <small class="opacity-75">25 OCT 2021</small>
+                            </div>
+                            <svg class="col-1 text-warning" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M9.983 3v7.391c0 5.704-3.731 9.57-8.983 10.609l-.995-2.151c2.432-.917 3.995-3.638 3.995-5.849h-4v-10h9.983zm14.017 0v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151c2.433-.917 3.996-3.638 3.996-5.849h-3.983v-10h9.983z" />
+                                </svg>
+                        </div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, obcaecati commodi quos
+                            quibusdam impedit illum?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---Section de Léo------------->
+
+    <section class="bg-lightgrey pt-5 pb-5" id="leo">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1>Titre</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-8">
+                    <img src="assets/gtr32.jpg" width="100%" height="250px">
+                </div>
+                <div class="col-md-4 d-flex align-items-center text-center">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam enim natus earum, quisquam
+                        repudiandae expedita laborum id officiis, ipsum dolor iure saepe rem vero ex magnam tenetur amet
+                        ut. Fugiat!</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 col-6 d-flex justify-content-center">
+                    <div class="column">
+                        <h2>Titre</h2>
+                        <ul>
+                            <li>rbgrilg</li>
+                            <li>rbgrilg</li>
+                            <li>rbgrilg</li>
+                            <li>rbgrilg</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 d-flex justify-content-center">
+                    <div class="column">
+                        <h2>Titre</h2>
+                        <ul>
+                            <li>rbgrilg</li>
+                            <li>rbgrilg</li>
+                            <li>rbgrilg</li>
+                            <li>rbgrilg</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 d-flex justify-content-center">
+                    <div class="column">
+                        <h2>Titre</h2>
+                        <ul>
+                            <li>rbgrilg</li>
+                            <li>rbgrilg</li>
+                            <li>rbgrilg</li>
+                            <li>rbgrilg</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 d-flex justify-content-center">
+                    <div class="column">
+                        <h2>Titre</h2>
+                        <ul>
+                            <li>rbgrilg</li>
+                            <li>rbgrilg</li>
+                            <li>rbgrilg</li>
+                            <li>rbgrilg</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!---Section de Axel------------->
+
+    <section class="pt-5 pb-5" id="axel">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-12">
+                    <h2 class="text-center">Gallery</h2>
+                </div>
+
+                <div class="col-md-8">
+                    <div class="row">
+
+                        <!-- Card list 1 -->
+                        <div class="col-md-4">
+                            <div class="col-md-12">
+                                <div class="card border-0 rounded-0">
+                                    <img src="https://images.unsplash.com/photo-1561588662-959ff53e963d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1074&q=80"
+                                        class="card-img" alt="..." width="100%" height="250px">
+                                    <div class="card-img-overlay row align-items-end">
+                                        <h5 class="card-title text-white">Card title</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-8">
+                            <div class="col-md-12">
+                                <div class="card border-0 rounded-0">
+                                    <img src="https://images.unsplash.com/photo-1561588662-959ff53e963d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1074&q=80"
+                                        class="card-img" alt="..." width="100%" height="250px">
+                                    <div class="card-img-overlay row align-items-end">
+                                        <h5 class="card-title text-white">Card title</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card list 2 -->
+                        <div class="col-md-8 my-3">
+                            <div class="col-md-12">
+                                <div class="card border-0 rounded-0">
+                                    <img src="https://images.unsplash.com/photo-1561588662-959ff53e963d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1074&q=80"
+                                        class="card-img" alt="..." width="100%" height="250px">
+                                    <div class="card-img-overlay row align-items-end">
+                                        <h5 class="card-title text-white">Card title</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 my-3">
+                            <div class="col-md-12">
+                                <div class="card border-0 rounded-0">
+                                    <img src="https://images.unsplash.com/photo-1561588662-959ff53e963d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1074&q=80"
+                                        class="card-img" alt="..." width="100%" height="250px">
+                                    <div class="card-img-overlay row align-items-end">
+                                        <h5 class="card-title text-white">Card title</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card list 3 -->
+                        <div class="col-md-4 my-3">
+                            <div class="col-md-12">
+                                <div class="card border-0 rounded-0">
+                                    <img src="https://images.unsplash.com/photo-1561588662-959ff53e963d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1074&q=80"
+                                        class="card-img" alt="..." width="100%" height="250px">
+                                    <div class="card-img-overlay row align-items-end">
+                                        <h5 class="card-title text-white">Card title</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-8 my-3">
+                            <div class="col-md-12">
+                                <div class="card border-0 rounded-0">
+                                    <img src="https://images.unsplash.com/photo-1561588662-959ff53e963d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1074&q=80"
+                                        class="card-img" alt="..." width="100%" height="250px">
+                                    <div class="card-img-overlay row align-items-end">
+                                        <h5 class="card-title text-white">Card title</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card my-4">
+                        <div class="card-header">
+                            <h2>Titre</h2>
+                        </div>
+                        <div class="card-body d-flex flex-row">
+                            <div class="my-2 col-md-4 d-flex justify-content-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                                    class="bi bi-apple" viewBox="0 0 16 16">
+                                    <path
+                                        d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282z" />
+                                    <path
+                                        d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282z" />
+                                </svg>
+                            </div>
+                            <div class="my-2 col-md-4 d-flex justify-content-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                                    class="bi bi-google" viewBox="0 0 16 16">
+                                    <path
+                                        d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z" />
+                                </svg>
+                            </div>
+                            <div class="my-2 col-md-4 d-flex justify-content-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                                    class="bi bi-youtube" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card my-5">
+                        <h2 class="card-header">Titre</h2>
+                        <div class="card-body">
+                            <img src="https://images.unsplash.com/photo-1546881527-caa825fe7cb9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2094&q=80"
+                                width="100%" height="250px">
+                            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id eros
+                                mollis, hendrerit lectus et, blandit sem. Ut vestibulum sit amet augue quis egestas.
+                                Nunc interdum hendrerit lobortis. Cras metus mi, faucibus eget risus sit amet, tempor
+                                facilisis lacus. Pellentesque et leo facilisis, fermentum arcu sed, placerat elit. Donec
+                                ut turpis a nulla feugiat aliquet id et ante.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---Section de Lucas------------->
+
+    <section class="bg-lightgrey pt-5 pb-5" id="lucas">
+        <div class="container">
+            <div class="row">
+                <div class="row text-center">
+                    <div class="col-md-12 col-sm-12">
+                        <h1>Titre</h1>
+                    </div>
+                    <div class="col-md-12">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolor animi quidem
+                            repudiandae
+                            atque
+                            aspernatur nulla, placeat id sed maxime, ratione dolorum at, quae facere inventore illo
+                            minus
+                            illum
+                            vitae!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xs-12">
+                    <img src="assets/creative1.jpg" width="100%" height="100%">
+                </div>
+                <div class="col-md-6 col-xs-12">
+                    <div class="row">
+                        <div class="col-md-6 col-6">
+                            <h2>Titre</h2>
+                            <ul>
+                                <li>
+                                    <p>Un paragraphe</p>
+                                </li>
+                                <li>
+                                    <p>Un paragraphe</p>
+                                </li>
+                                <li>
+                                    <p>Un paragraphe</p>
+                                </li>
+                                <li>
+                                    <p>Un paragraphe</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-6">
+                            <h2>Titre</h2>
+                            <ul>
+                                <li>
+                                    <p>Un paragraphe</p>
+                                </li>
+                                <li>
+                                    <p>Un paragraphe</p>
+                                </li>
+                                <li>
+                                    <p>Un paragraphe</p>
+                                </li>
+                                <li>
+                                    <p>Un paragraphe</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-6">
+                            <h2>Titre</h2>
+                            <ul>
+                                <li>
+                                    <p>Un paragraphe</p>
+                                </li>
+                                <li>
+                                    <p>Un paragraphe</p>
+                                </li>
+                                <li>
+                                    <p>Un paragraphe</p>
+                                </li>
+                                <li>
+                                    <p>Un paragraphe</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-6">
+                            <h2>Titre</h2>
+                            <ul>
+                                <li>
+                                    <p>Un paragraphe</p>
+                                </li>
+                                <li>
+                                    <p>Un paragraphe</p>
+                                </li>
+                                <li>
+                                    <p>Un paragraphe</p>
+                                </li>
+                                <li>
+                                    <p>Un paragraphe</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---Section de Math------------->
+
+    <section class="test container pt-5 pb-5" id="math">
+        <div class="row">
+            <div class="col-md-12 text-center mb-5">
+                <h2>TITRE</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto quia cupiditate, molestiae
+                    laboriosam saepe itaque repellendus quam delectus doloremque ex totam, pariatur tempore veniam
+                    esse praesentium, vel alias similique ullam.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-6 col-md-6">
+                            <h5>Poudlard</h5>
+                            <ul>
+                                <li>Gryffindor</li>
+                                <li>Ravenclaw</li>
+                                <li>Hupplepuff</li>
+                                <li>Slytherin</li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-md-6">
+                            <h5>Poudlard</h5>
+                            <ul>
+                                <li>Gryffindor</li>
+                                <li>Ravenclaw</li>
+                                <li>Hupplepuff</li>
+                                <li>Slytherin</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 col-md-6">
+                            <h5>Poudlard</h5>
+                            <ul>
+                                <li>Gryffindor</li>
+                                <li>Ravenclaw</li>
+                                <li>Hupplepuff</li>
+                                <li>Slytherin</li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-md-6">
+                            <h5>Poudlard</h5>
+                            <ul>
+                                <li>Gryffindor</li>
+                                <li>Ravenclaw</li>
+                                <li>Hupplepuff</li>
+                                <li>Slytherin</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/bierraubeurre.jpeg" alt="" width="100%" height="auto">
+                </div>
+
+            </div>
+    </section>
+
+    <!---Section de Melvin------------->
+
+    <section class="bg-lightgrey pt-5 pb-5 mb-5" id="melvin">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <h1>Titre</h1>
+                    <p>Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla </p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <input class="" type="text" placeholder="filtre">
+                    <button class="btn btn-primary">envoyer</button>
+                    <div class="row">
+                        <div class="d-flex mx-1 rounded-pill bg-primary col-auto text-white">
+                            <p class="m-0"><span class="text-danger">#</span>bla</p>
+                        </div>
+                        <div class="d-flex mx-1 rounded-pill bg-primary col-auto text-white">
+                            <p class="m-0"><span class="text-danger">#</span>bla</p>
+                        </div>
+                        <div class="d-flex mx-1 rounded-pill bg-primary col-auto text-white">
+                            <p class="m-0"><span class="text-danger">#</span>bla</p>
+                        </div>
+                        <div class="d-flex mx-1 rounded-pill bg-primary col-auto text-white">
+                            <p class="m-0"><span class="text-danger">#</span>bla</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="card col-md-4">
+                    <div class="card-header">
+                        <img src="assets/images/header/header1.png" alt="header" width="100%" height="200px">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <div class="row align-items-center">
+                            <div class="col-4 col-md-4 ">
+                                <img src="assets/images/Kooppy.png" alt="avatar" width="50px" height="50px"
+                                    class="rounded-circle">
+                            </div>
+                            <div class="col-8 col-md-8 ">
+                                <p class="card-text">With supporting text below as a natural lead-in to additional
+                                    content.</p>
+                            </div>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-md-6 text-start">
+                                <p class="m-0">7.77 $ </p>
+                            </div>
+                            <div class="col-md-6 text-end">
+                                <a href="#" class="btn btn-primary">Vend</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-md-4">
+                    <div class="card-header">
+                        <img src="assets/images/header/header1.png" alt="header" width="100%" height="200px">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <div class="row align-items-center">
+                            <div class="col-4 col-md-4 ">
+                                <img src="assets/images/Kooppy.png" alt="avatar" width="50px" height="50px"
+                                    class="rounded-circle">
+                            </div>
+                            <div class="col-8 col-md-8 ">
+                                <p class="card-text">With supporting text below as a natural lead-in to additional
+                                    content.</p>
+                            </div>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-md-6 text-start">
+                                <p class="m-0">7.77 $ </p>
+                            </div>
+                            <div class="col-md-6 text-end">
+                                <a href="#" class="btn btn-primary">Vend</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card col-md-4">
+                    <div class="card-header">
+                        <img src="assets/images/header/header1.png" alt="header" width="100%" height="200px">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <div class="row align-items-center">
+                            <div class="col-4 col-md-4 ">
+                                <img src="assets/images/Kooppy.png" alt="avatar" width="50px" height="50px"
+                                    class="rounded-circle">
+                            </div>
+                            <div class="col-8 col-md-8 ">
+                                <p class="card-text">With supporting text below as a natural lead-in to additional
+                                    content.</p>
+                            </div>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-md-6 text-start">
+                                <p class="m-0">7.77 $ </p>
+                            </div>
+                            <div class="col-md-6 text-end">
+                                <a href="#" class="btn btn-primary">Vend</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-3 col-xs-12">
+                <p>col-md-6 col-lg-3 col-xs-12 (1)</p>
+            </div>
+            <div class="col-md-3 col-lg-6 col-xs-12">
+                <p>col-md-3 col-lg-6 col-xs-12 (2)</p>
+            </div>
+            <div class="col-md-12 col-lg-6 col-xs-12">
+                <p>col-md-12 col-lg-6 col-xs-12 (3)</p>
+            </div>
+            <div class="col-6">
+                <p>col-6 (4)</p>
+            </div>
+        </div>
+    </section>
+    <!---Section de Nakad------------->
+
+    <section id="nakad" class="pt-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 me-2 mt-2">
+                    <h5 class="text-center">Titre</h5>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><i class="fab fa-amazon me-2"></i>Nakad</li>
+                        <li class="list-group-item"><i class="fab fa-amazon me-2"></i>Nakad</li>
+                        <li class="list-group-item"><i class="fab fa-amazon me-2"></i>Nakad</li>
+                        <li class="list-group-item"><i class="fab fa-amazon me-2"></i>Nakad</li>
+                    </ul>
+                    <img class="img-fluid" src="assets/raphtalia.png" alt="">
+                </div>
+                <div class="col-md-4 me-2 mt-2">
+                    <h5 class="text-center">Titre</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias qui ducimus eum atque, quae
+                        voluptates sapiente obcaecati dolorem nisi, culpa fugit repellendus deleniti, consectetur nulla
+                        dolor dolores a eius soluta!</p>
+                    <div class="d-flex flex-row justify-content-around">
+                        <i class="fab fa-amazon"></i>
+                        <i class="fab fa-amazon"></i>
+                        <i class="fab fa-amazon"></i>
+                        <i class="fab fa-amazon"></i>
+                    </div>
+                </div>
+                <div class="col-md-3 me-2 mt-2">
+                    <h5 class="text-center">Titre</h5>
+                    <ul class="d-flex flex-column align-items-center">
+                        <li>Nakad</li>
+                        <li>Nakad</li>
+                        <li>Nakad</li>
+                        <li>Nakad</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-4 mx-auto">
+                    <form action="" class="input-group text-center">
+                        <input type="text" class="form-control">
+                        <span class="input-group-text"><i class="fab fa-amazon"></i></span>
+                    </form>
+                </div>
+                <p class="text-center mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati incidunt
+                    fugit labore? Eveniet reiciendis, eius quae veniam tempore consectetur, possimus consequatur
+                    eligendi
+                    consequuntur perspiciatis vel nostrum et quia recusandae vitae?</p>
+            </div>
+        </div>
+    </section>
+
+    <!---Footer------------->
+
+
+    <footer class="bg-secondary pt-5">
+        <div class="container">
+
+            <div class="row mt-3">
+                <p class="text-center">Senoyo 2021, <a href="">Mentions légales.</a></p>
+            </div>
+            <div class="row row-cols-3 mt-3 g-1">
+                <div class="col-6 col-sm">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Titre</h5>
+                            <p class="card-text">Huhuh</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Titre</h5>
+                            <p class="card-text">Huhuh</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Titre</h5>
+                            <p class="card-text">Huhuh</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <!---Script------------->
+
+    <script src="assets/vendors/bootstrap-5.1.3/dist/js/bootstrap.min.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
